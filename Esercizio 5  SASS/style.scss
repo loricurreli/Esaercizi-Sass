@@ -1,0 +1,54 @@
+@use 'color-random';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+
+    .columns{
+
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
+        .col-1{
+            background-color: color-random.random-hex();
+        }
+        .col-2{
+            background-color: color-random.random-hex();
+        }
+        .col-3{
+            background-color: color-random.random-hex();
+        }
+        .col-4{
+            background-color: color-random.random-hex();
+        }
+        .col-5{
+            background-color: color-random.random-hex();
+        }
+        .col-6{
+            background-color: color-random.random-hex();
+        }
+        .col-7{
+            background-color: color-random.random-hex();
+        }
+        .col-8{
+            background-color: color-random.random-hex();
+        }
+        .col-9{
+            background-color: color-random.random-hex();
+        }
+        .col-10{
+            background-color: color-random.random-hex();
+        }
+        .col-11{
+            background-color: color-random.random-hex();
+        }
+        .col-12{
+            background-color: color-random.random-hex();
+        }
+    }
+}
